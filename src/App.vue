@@ -1,18 +1,18 @@
 <template>
   <div id="app">
-    
+    <User></User>
   </div>
 </template>
 
 <script>
-import User from './components/User.vue'
+import User from "./components/User.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    User
-  }
-}
+    User,
+  },
+};
 </script>
 
 <style>
@@ -21,7 +21,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  background-color: #263238;
+  color: #ffffff;
   margin-top: 60px;
 }
 </style>
